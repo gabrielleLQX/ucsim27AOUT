@@ -1,0 +1,194 @@
+Xregs
+
+0x6000–0x61FF Radio registers (see CC253x Radio Section 23.15 or CC2540
+   	      Radio Section 24.1 or CC2541 Radio Section 25.12 for
+  	      complete list)
+
+
+0x6180 FRMFILT0
+0x6181 FRMFILT1
+0x6182 SRCMATCH
+0x6183 SRCSHORTEN0
+0x6184 SRCSHORTEN1
+0x6185 SRCSHORTEN2
+0x6186 SRCEXTEN0
+0x6187 SRCEXTEN1
+0x6188 SRCEXTEN2
+0x6189 FRMCTRL0
+0x618A FRMCTRL1
+0x618B RXENABLE
+0x618C RXMASKSET
+0x618D RXMASKCLR
+0x618E FREQTUNE
+0x618F FREQCTRL
+0x6190 TXPOWER
+0x6191 TXCTRL
+0x6192 FSMSTAT0
+0x6193 FSMSTAT1
+0x6194 FIFOPCTRL
+0x6195 FSMCTRL
+0x6196 CCACTRL0
+0x6197 CCACTRL1
+0x6198 RSSI
+0x6199 RSSISTAT
+0x619A RXFIRST
+0x619B RXFIFOCNT
+0x619C TXFIFOCNT
+0x619D RXFIRST_PTR
+0x619E RXLAST_PTR
+0x619F RXP1_PTR
+0x61A1 TXFIRST_PTR
+0x61A2 TXLAST_PTR
+0x61A3 RFIRQM0
+0x61A4 RFIRQM1
+0x61A5 RFERRM
+0x61A6 MONMUX
+0x61A7 RFRND
+0x61A8 MDMCTRL0
+0x61A9 MDMCTRL1
+0x61AA FREQEST
+0x61AB RXCTRL
+0x61AC FSCTRL
+0x61AE FSCAL1
+0x61AF FSCAL2
+0x61B0 FSCAL3
+0x61B1 AGCCTRL0
+0x61B2 AGCCTRL1
+0x61B3 AGCCTRL2
+0x61B4 AGCCTRL3
+0x61B5 ADCTEST0
+0x61B6 ADCTEST1
+0x61B7 ADCTEST2
+0x61B8 MDMTEST0
+0x61B9 MDMTEST1
+0x61BA DACTEST0
+0x61BB DACTEST1
+0x61BC DACTEST2
+0x61BD ATEST
+0x61BE PTEST0
+0x61BF PTEST1
+0x61C0 CSPPROG0
+0x61C1 CSPPROG1
+0x61C2 CSPPROG2
+0x61C3 CSPPROG3
+0x61C4 CSPPROG4
+0x61C5 CSPPROG5
+0x61C6 CSPPROG6
+0x61C7 CSPPROG7
+0x61C8 CSPPROG8
+0x61C9 CSPPROG9
+0x61CA CSPPROG10
+0x61CB CSPPROG11
+0x61CC CSPPROG12
+0x61CD CSPPROG13
+0x61CE CSPPROG14
+0x61CF CSPPROG15
+0x61D0 CSPPROG16
+0x61D1 CSPPROG17
+0x61D2 CSPPROG18
+0x61D3 CSPPROG19
+0x61D4 CSPPROG20
+0x61D5 CSPPROG21
+0x61D6 CSPPROG22
+0x61D7 CSPPROG23 
+0x61E0 CSPCTRL
+0x61E1 CSPSTAT
+0x61E2 CSPX
+0x61E3 CSPY
+0x61E4 CSPZ
+0x61E5 CSPT
+0x61EB FC_OBS_CTRL0
+0x61EC RFC_OBS_CTRL1
+0x61ED RFC_OBS_CTRL2
+0x61FA TXFILTCFG 
+
+
+
+
+0x61A6 MONMUX Battery monitor MUX (CC2533)
+       OPAMPMC Operational amplifier mode control (CC2530/CC2531)
+
+0x61AD OPAMPMC Operational amplifier mode control (CC2540)
+
+0x6200–0x622B — USB registers (see Section 21.12 for complete list)
+
+USBADDR (0x6200) – Function Address
+USBPOW (0x6201) – Power/Control Register
+USBIIF (0x6202) – IN Endpoints and EP0 Interrupt Flags
+USBOIF (0x6204) – OUT-Endpoint Interrupt Flags
+USBCIF (0x6206) – Common USB Interrupt Flags
+USBIIE (0x6207) – IN Endpoints and EP0 Interrupt-Enable Mask
+USBOIE (0x6209) – Out Endpoints Interrupt Enable Mask
+USBCIE (0x620B) – Common USB Interrupt-Enable Mask
+USBFRML (0x620C) – Current Frame Number (Low Byte)
+USBFRMH (0x620D) – Current Frame Number (High Byte)
+USBINDEX (0x620E) – Current-Endpoint Index Register
+USBCTRL (0x620F) – USB Control Register
+USBMAXI (0x6210) – Max. Packet Size for IN Endpoint{1–5}
+USBCS0 (0x6211) – EP0 Control and Status (USBINDEX = 0)
+USBCSIL (0x6211) – IN EP{1–5} Control and Status, Low
+USBCSIH (0x6212) – IN EP{1–5} Control and Status, High
+USBMAXO (0x6213) – Max. Packet Size for OUT EP{1–5}
+USBCSOL (0x6214) – OUT EP{1–5} Control and Status, Low
+USBCSOH (0x6215) – OUT EP{1–5} Control and Status, High
+USBCNT0 (0x6216) – Number of Received Bytes in EP0 FIFO (USBINDEX = 0)
+USBCNTL (0x6216) – Number of Bytes in EP{1–5} OUT FIFO, Low
+USBCNTH (0x6217) – Number of Bytes in EP{1–5} OUT FIFO, High
+USBF0 (0x6220) – Endpoint-0 FIFO
+USBF1 (0x6222) – Endpoint-1 FIFO
+USBF2 (0x6224) – Endpoint-2 FIFO
+USBF3 (0x6226) – Endpoint-3 FIFO
+USBF4 (0x6228) – Endpoint-4 FIFO
+USBF5 (0x622A) – Endpoint-5 FIFO
+
+
+0x6230 I2CCFG I2C control
+0x6231 I2CSTAT I2C status
+0x6232 I2CDATA I2C data
+0x6233 I2CADDR I2C own slave address
+0x6234 I2CWC Wrapper control
+0x6235 I2CIO GPIO
+0x6243 OBSSEL0 Observation output control register 0
+0x6244 OBSSEL1 Observation output control register 1
+0x6245 OBSSEL2 Observation output control register 2
+0x6246 OBSSEL3 Observation output control register 3
+0x6247 OBSSEL4 Observation output control register 4
+0x6248 OBSSEL5 Observation output control register 5
+0x6249 CHVER Chip version
+0x624A CHIPID Chip identification
+0x624B TR0 Test register 0
+0x6260 DBGDATA Debug interface write data
+0x6262 SRCRC Sleep reset CRC
+0x6264 BATTMON Battery monitor
+0x6265 IVCTRL Analog control register
+0x6270 FCTL Flash control
+0x6271 FADDRL Flash address low
+0x6272 FADDRH Flash address high
+0x6273 FWDATA Flash write data
+0x6276 CHIPINFO0 Chip information byte 0
+0x6277 CHIPINFO1 Chip information byte 1
+0x6281 IRCTL Timer 1 IR generation control
+0x6290 CLD Clock-loss detection
+0x62A0 T1CCTL0 Timer 1 channel 0 capture/compare control (additional XREG mapping of SFR register)
+0x62A1 T1CCTL1 Timer 1 channel 1 capture/compare control (additional XREG mapping of SFR register)
+0x62A2 T1CCTL2 Timer 1 channel 2 capture/compare control (additional XREG mapping of SFR register)
+0x62A3 T1CCTL3 Timer 1 channel 3 capture/compare control
+0x62A4 T1CCTL4 Timer 1 channel 4 capture/compare control
+0x62A6 T1CC0L Timer 1 channel 0 capture/compare value low (additional XREG mapping of SFR register)
+0x62A7 T1CC0H Timer 1 channel 0 capture/compare value high (additional XREG mapping of SFR register)
+0x62A8 T1CC1L Timer 1 channel 1 capture/compare value low (additional XREG mapping of SFR register)
+0x62A9 T1CC1H Timer 1 channel 1 capture/compare value high (additional XREG mapping of SFR register)
+0x62AA T1CC2L Timer 1 channel 2 capture/compare value low (additional XREG mapping of SFR register)
+0x62AB T1CC2H Timer 1 channel 2 capture/compare value high (additional XREG mapping of SFR register)
+0x62AC T1CC3L Timer 1 channel 3 capture/compare value low
+0x62AD T1CC3H Timer 1 channel 3 capture/compare value high
+0x62AE T1CC4L Timer 1 channel 4 capture/compare value low
+0x62AF T1CC4H Timer 1 channel 4 capture/compare value high
+0x62B0 STCC Sleep Timer capture control
+0x62B1 STCS Sleep Timer capture status
+0x62B2 STCV0 Sleep Timer capture value byte 0
+0x62B3 STCV1 Sleep Timer capture value byte 1
+0x62B4 STCV2 Sleep Timer capture value byte 2
+0x62C0 OPAMPC Operational amplifier control
+0x62C1 OPAMPS Operational amplifier status
+0x62D0 CMPCTL Analog comparator control and status

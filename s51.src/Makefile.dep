@@ -1,0 +1,424 @@
+arith.o: arith.cc ../ddconfig.h uc51cl.h ../pobjcl.h ../ddconfig.h \
+ ../pobjt.h ../eventcl.h ../sim.src/simcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../stypes.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/hwcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/memcl.h ../eventcl.h ../errorcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h ../sim.src/argcl.h ../sim.src/memcl.h \
+ ../sim.src/uccl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+bit.o: bit.cc ../ddconfig.h uc51cl.h ../pobjcl.h ../ddconfig.h ../pobjt.h \
+ ../eventcl.h ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h ../stypes.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+CC2530.o: CC2530.cc
+CC2530DMA.o: CC2530DMA.cc CC2530DMAcl.h ../sim.src/memcl.h ../ddconfig.h \
+ ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h ../eventcl.h \
+ ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h ../stypes.h \
+ ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/argcl.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../sim.src/memcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h uc51cl.h \
+ ../sim.src/itsrccl.h ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h \
+ CC2530timer2cl.h CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+CC2530flashCtrler.o: CC2530flashCtrler.cc CC2530flashCtrlercl.h \
+ ../sim.src/memcl.h ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h \
+ ../pobjt.h ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h \
+ ../pobjcl.h ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../optioncl.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../sim.src/brkcl.h ../sim.src/stackcl.h uc51cl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h \
+ xregsCC2530.h types51.h
+CC2530Radio.o: CC2530Radio.cc CC2530Radiocl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h uc51cl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h regs51.h regs51b.h RegistersForCC2530app.h \
+ xregsCC2530.h types51.h
+CC2530sleepTimer.o: CC2530sleepTimer.cc CC2530sleepTimercl.h \
+ ../sim.src/memcl.h ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h \
+ ../pobjt.h ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h \
+ ../pobjcl.h ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../optioncl.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../sim.src/brkcl.h ../sim.src/stackcl.h uc51cl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+CC2530timer1.o: CC2530timer1.cc CC2530timer1cl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h CC2530timercl.h uc51cl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timer2cl.h CC2530timer3cl.h CC2530timer4cl.h \
+ CC2530usartcl.h CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h \
+ CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h \
+ types51.h
+CC2530timer2.o: CC2530timer2.cc CC2530timer2cl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h uc51cl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer3cl.h CC2530timer4cl.h \
+ CC2530usartcl.h CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h \
+ CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h \
+ types51.h
+CC2530timer3.o: CC2530timer3.cc CC2530timer3cl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h CC2530timercl.h uc51cl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer4cl.h \
+ CC2530usartcl.h CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h \
+ CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h \
+ types51.h
+CC2530timer4.o: CC2530timer4.cc CC2530timer4cl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h CC2530timercl.h uc51cl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530usartcl.h CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h \
+ CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h \
+ types51.h
+CC2530timer.o: CC2530timer.cc CC2530timercl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h uc51cl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h CC2530timer4cl.h \
+ CC2530usartcl.h CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h \
+ CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h \
+ types51.h
+CC2530usart.o: CC2530usart.cc CC2530usartcl.h ../sim.src/memcl.h \
+ ../ddconfig.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h \
+ ../stypes.h ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/argcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h uc51cl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h \
+ CC2530Radiocl.h regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h \
+ types51.h
+CC2530WDT.o: CC2530WDT.cc CC2530WDTcl.h ../sim.src/memcl.h ../ddconfig.h \
+ ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h ../eventcl.h \
+ ../sim.src/guiobjcl.h ../eventcl.h ../errorcl.h ../pobjcl.h ../stypes.h \
+ ../sim.src/uccl.h ../sim.src/hwcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../optioncl.h ../sim.src/argcl.h ../sim.src/simcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/argcl.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../sim.src/memcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h uc51cl.h \
+ ../sim.src/itsrccl.h ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h \
+ CC2530timer2cl.h CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h \
+ CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h \
+ regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h types51.h
+glob.o: glob.cc ../stypes.h ../ddconfig.h
+inc.o: inc.cc ../ddconfig.h uc51cl.h ../pobjcl.h ../ddconfig.h ../pobjt.h \
+ ../eventcl.h ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h ../stypes.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h
+interrupt.o: interrupt.cc ../utils.h ../stypes.h ../ddconfig.h \
+ ../sim.src/itsrccl.h ../pobjcl.h ../pobjt.h ../eventcl.h ../stypes.h \
+ interruptcl.h ../sim.src/uccl.h ../sim.src/hwcl.h ../sim.src/guiobjcl.h \
+ ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h ../optioncl.h \
+ ../sim.src/argcl.h ../sim.src/simcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/argcl.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../sim.src/memcl.h ../eventcl.h ../errorcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h regs51.h regs51b.h RegistersForCC2530app.h \
+ xregsCC2530.h types51.h
+jmp.o: jmp.cc ../ddconfig.h uc51cl.h ../pobjcl.h ../ddconfig.h ../pobjt.h \
+ ../eventcl.h ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h ../stypes.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+logic.o: logic.cc ../ddconfig.h ../stypes.h ../ddconfig.h uc51cl.h \
+ ../pobjcl.h ../pobjt.h ../eventcl.h ../sim.src/simcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h ../optioncl.h ../stypes.h \
+ ../sim.src/argcl.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/hwcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/memcl.h ../eventcl.h ../errorcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h ../sim.src/argcl.h ../sim.src/memcl.h \
+ ../sim.src/uccl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h
+mov.o: mov.cc ../ddconfig.h ../sim.src/memcl.h ../stypes.h ../ddconfig.h \
+ ../pobjcl.h ../pobjt.h ../eventcl.h ../sim.src/guiobjcl.h ../eventcl.h \
+ ../errorcl.h ../pobjcl.h ../stypes.h uc51cl.h ../sim.src/simcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../optioncl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/memcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h ../sim.src/argcl.h ../sim.src/uccl.h \
+ ../sim.src/itsrccl.h ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h \
+ CC2530timer2cl.h CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h \
+ CC2530DMAcl.h interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h \
+ regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h
+pca.o: pca.cc ../sim.src/itsrccl.h ../pobjcl.h ../ddconfig.h ../pobjt.h \
+ ../eventcl.h ../stypes.h pcacl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../eventcl.h ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h \
+ regs51.h regs51b.h RegistersForCC2530app.h xregsCC2530.h types51.h
+port.o: port.cc portcl.h ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h \
+ ../eventcl.h ../sim.src/uccl.h ../sim.src/hwcl.h ../sim.src/guiobjcl.h \
+ ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h ../optioncl.h \
+ ../stypes.h ../sim.src/argcl.h ../sim.src/simcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/argcl.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../sim.src/memcl.h ../eventcl.h ../errorcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h regs51.h regs51b.h RegistersForCC2530app.h \
+ xregsCC2530.h types51.h
+s51.o: s51.cc ../ddconfig.h ../globals.h ../ddconfig.h ../stypes.h \
+ ../appcl.h ../pobjcl.h ../pobjt.h ../eventcl.h ../optioncl.h \
+ ../sim.src/argcl.h ../pobjcl.h ../stypes.h ../sim.src/simcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h ../errorcl.h \
+ ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h sim51cl.h
+serial.o: serial.cc ../ddconfig.h ../globals.h ../ddconfig.h ../stypes.h \
+ ../appcl.h ../pobjcl.h ../pobjt.h ../eventcl.h ../optioncl.h \
+ ../sim.src/argcl.h ../pobjcl.h ../stypes.h ../sim.src/simcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h ../errorcl.h \
+ ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h serialcl.h \
+ ../sim.src/uccl.h regs51.h regs51b.h RegistersForCC2530app.h \
+ xregsCC2530.h uc51cl.h ../sim.src/memcl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h
+sim51.o: sim51.cc ../ddconfig.h ../i_string.h ../ddconfig.h ../globals.h \
+ ../stypes.h ../appcl.h ../pobjcl.h ../pobjt.h ../eventcl.h ../optioncl.h \
+ ../sim.src/argcl.h ../pobjcl.h ../stypes.h ../sim.src/simcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h ../errorcl.h \
+ ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h ../utils.h \
+ ../cmd.src/cmdutil.h ../sim.src/uccl.h sim51cl.h uc51cl.h \
+ ../sim.src/memcl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h CC2530Radiocl.h uc52cl.h uc51rcl.h uc89c51rcl.h \
+ uc251cl.h uc390cl.h glob.h
+timer0.o: timer0.cc timer0cl.h ../stypes.h ../ddconfig.h ../pobjcl.h \
+ ../pobjt.h ../eventcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../eventcl.h ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h \
+ uc51cl.h ../sim.src/memcl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+timer1.o: timer1.cc timer1cl.h ../stypes.h ../ddconfig.h ../pobjcl.h \
+ ../pobjt.h ../eventcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../eventcl.h ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h \
+ timer0cl.h uc51cl.h ../sim.src/memcl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h
+timer2.o: timer2.cc timer2cl.h ../stypes.h ../ddconfig.h ../pobjcl.h \
+ ../pobjt.h ../eventcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../eventcl.h ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h \
+ timer0cl.h uc51cl.h ../sim.src/memcl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h
+uc251.o: uc251.cc ../ddconfig.h uc251cl.h uc89c51rcl.h uc51rcl.h uc52cl.h \
+ uc51cl.h ../pobjcl.h ../ddconfig.h ../pobjt.h ../eventcl.h \
+ ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h \
+ ../optioncl.h ../stypes.h ../sim.src/argcl.h ../stypes.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h
+uc390.o: uc390.cc ../ddconfig.h ../i_string.h ../ddconfig.h glob.h \
+ uc390cl.h uc52cl.h uc51cl.h ../pobjcl.h ../pobjt.h ../eventcl.h \
+ ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h \
+ ../optioncl.h ../stypes.h ../sim.src/argcl.h ../stypes.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h uc390hwcl.h timer2cl.h timer0cl.h
+uc390hw.o: uc390hw.cc ../ddconfig.h uc390hwcl.h ../sim.src/uccl.h \
+ ../stypes.h ../ddconfig.h ../pobjcl.h ../pobjt.h ../eventcl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../eventcl.h ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h \
+ uc390cl.h uc52cl.h uc51cl.h ../sim.src/memcl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h
+uc51.o: uc51.cc ../ddconfig.h ../i_string.h ../ddconfig.h ../utils.h \
+ ../stypes.h ../globals.h ../appcl.h ../pobjcl.h ../pobjt.h ../eventcl.h \
+ ../optioncl.h ../sim.src/argcl.h ../pobjcl.h ../stypes.h \
+ ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../optioncl.h ../cmd.src/cmduccl.h uc51cl.h ../sim.src/memcl.h \
+ ../sim.src/uccl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h CC2530Radiocl.h glob.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h timer0cl.h timer1cl.h serialcl.h \
+ portcl.h types51.h
+uc51r.o: uc51r.cc ../ddconfig.h uc51rcl.h uc52cl.h uc51cl.h ../pobjcl.h \
+ ../ddconfig.h ../pobjt.h ../eventcl.h ../sim.src/simcl.h \
+ ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h ../optioncl.h ../stypes.h \
+ ../sim.src/argcl.h ../stypes.h ../cmd.src/commandcl.h \
+ ../cmd.src/newcmdcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h ../errorcl.h \
+ ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h types51.h wdtcl.h
+uc52.o: uc52.cc ../ddconfig.h uc52cl.h uc51cl.h ../pobjcl.h ../ddconfig.h \
+ ../pobjt.h ../eventcl.h ../sim.src/simcl.h ../cmd.src/newcmdcl.h \
+ ../appcl.h ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../stypes.h ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h \
+ ../gui.src/guicl.h ../gui.src/ifcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/uccl.h ../sim.src/hwcl.h ../sim.src/guiobjcl.h \
+ ../sim.src/memcl.h ../eventcl.h ../errorcl.h ../sim.src/brkcl.h \
+ ../sim.src/stackcl.h ../sim.src/argcl.h ../sim.src/memcl.h \
+ ../sim.src/uccl.h ../sim.src/itsrccl.h ../sim.src/brkcl.h \
+ CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h CC2530timer3cl.h \
+ CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h interruptcl.h \
+ CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h timer2cl.h timer0cl.h
+uc89c51r.o: uc89c51r.cc ../ddconfig.h uc89c51rcl.h uc51rcl.h uc52cl.h \
+ uc51cl.h ../pobjcl.h ../ddconfig.h ../pobjt.h ../eventcl.h \
+ ../sim.src/simcl.h ../cmd.src/newcmdcl.h ../appcl.h ../pobjcl.h \
+ ../optioncl.h ../stypes.h ../sim.src/argcl.h ../stypes.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../gui.src/guicl.h \
+ ../gui.src/ifcl.h ../sim.src/guiobjcl.h ../sim.src/uccl.h \
+ ../sim.src/hwcl.h ../sim.src/guiobjcl.h ../sim.src/memcl.h ../eventcl.h \
+ ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h ../sim.src/argcl.h \
+ ../sim.src/memcl.h ../sim.src/uccl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h pcacl.h wdtcl.h
+wdt.o: wdt.cc wdtcl.h ../sim.src/uccl.h ../stypes.h ../ddconfig.h \
+ ../pobjcl.h ../pobjt.h ../eventcl.h ../sim.src/hwcl.h \
+ ../sim.src/guiobjcl.h ../ddconfig.h ../cmd.src/newcmdcl.h ../appcl.h \
+ ../pobjcl.h ../optioncl.h ../stypes.h ../sim.src/argcl.h \
+ ../sim.src/simcl.h ../gui.src/guicl.h ../gui.src/ifcl.h \
+ ../sim.src/guiobjcl.h ../sim.src/uccl.h ../sim.src/argcl.h \
+ ../cmd.src/commandcl.h ../cmd.src/newcmdcl.h ../sim.src/memcl.h \
+ ../eventcl.h ../errorcl.h ../sim.src/brkcl.h ../sim.src/stackcl.h \
+ uc51rcl.h uc52cl.h uc51cl.h ../sim.src/memcl.h ../sim.src/itsrccl.h \
+ ../sim.src/brkcl.h CC2530timercl.h CC2530timer1cl.h CC2530timer2cl.h \
+ CC2530timer3cl.h CC2530timer4cl.h CC2530usartcl.h CC2530DMAcl.h \
+ interruptcl.h CC2530flashCtrlercl.h CC2530Radiocl.h regs51.h regs51b.h \
+ RegistersForCC2530app.h xregsCC2530.h
